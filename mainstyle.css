@@ -4,32 +4,39 @@
 	box-sizing: border-box;
 }
 body{
-	background: url("images/frogs-traveling.jpg") no-repeat fixed top right;
+	background: url("images/worldmap.jpg");
+	background-size: cover;
 }
 
 #container{
-	width: 800px;
-	margin: 0 auto:
-		background-color: blue;
+	width: 800px; height: 800px;
+	margin: 0 auto;
+	background-color:rgba(35,88,159,0.59);
 }
 .left{
-	width: 380px;
+	width: 385px;
 	height: 200px;
 	background-color: rgba(255,255,255,0.50);
 	border-radius: 25px;
 	float:left;
 	margin: 0px 10px 0px 10px;
+	padding: 25px 25px 25px 25px;
+	border:solid 3px rgba(11,4,107,1.00);
 }
 
 .right{
-	width: 380px;
+	width: 385px;
 	height: 200px;
 	background-color: rgba(255,255,255,0.50);
 	border-radius: 25px;
 	float:left;
+	padding: 25px 25px 25px 25px;
+	border:solid 3px rgba(11,4,107,1.00);
 }
 
 footer{
 	background-color:rgba(255,255,255,1.00);
 	clear:both;
 }
+
+header > h1{text-align:center; color: white}
