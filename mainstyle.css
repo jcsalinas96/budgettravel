@@ -21,7 +21,7 @@ h2 {
 }
 p
 {
-	style= font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 .left{
 	width: 385px;
